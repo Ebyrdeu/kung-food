@@ -1,0 +1,165 @@
+main {
+    margin-top: 5px;
+
+}
+
+.tex-container {
+    width: 50%;
+    padding: 45px;
+}
+
+.section-1 {
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(189, 246, 203, 0.7) 55%, transparent 45%);
+}
+
+.main-title {
+    font-size: 5vh;
+    margin-bottom: 20px;
+}
+
+.main-subtitle {
+    font-size: 30px;
+}
+
+.main-carousel-content {
+    width: 800px;
+    animation-name: fading;
+    animation-duration: 1.5s;
+
+}
+
+.main-carousel-content p {
+    font-size: 24px;
+    padding: 5px;
+    position: relative;
+    text-align: end;
+
+}
+
+
+.main-carousel-img {
+    width: 800px;
+    height: 420px;
+    object-fit: cover;
+}
+
+.text-container-2 {
+    width: 60%;
+    padding: 45px;
+}
+
+.main-carousel-sidebar_item {
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #71EFAC;
+    cursor: pointer;
+}
+
+.pricing {
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.pricing-article-subtitle {
+    font-size: 20px;
+}
+
+.pricing-card {
+    width: 18rem;
+}
+
+.pricing-card-title {
+    color: white;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.pricing-card-title:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 10px 15px 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -24px;
+    left: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+}
+
+.pricing-card-title-1 {
+    background: #71cdef;
+
+}
+
+.pricing-card-title-1:before {
+    border-color: #71cdef transparent transparent transparent;
+}
+
+.pricing-card-title-2 {
+    background: rgba(114, 203, 132, 1);
+
+}
+
+.pricing-card-title-2:before {
+    border-color: rgba(114, 203, 132, 1) transparent transparent transparent;
+}
+
+.pricing-card-title-3 {
+    background: rgb(203, 114, 114);
+
+}
+
+.pricing-card-title-3:before {
+    border-color: rgb(203, 114, 114) transparent transparent transparent;
+}
+
+.pricing-card-tag-1 {
+    color: #71cdef;
+}
+
+.pricing-card-tag-2 {
+    color: rgba(114, 203, 132, 1);
+}
+
+.pricing-card-tag-3 {
+    color: rgb(203, 114, 114);
+}
+
+.pricing-card-line {
+    width: 20%;
+    height: 1px;
+    background: rgba(51, 51, 51, 0.68);
+    margin: 0 auto;
+}
+
+.pricing-card-list-item img {
+    margin-right: 10px;
+}
+
+.price-card-tag {
+    font-family: Tahoma sans-serif;
+}
+
+.pricing-card-btn {
+    border: none;
+    color: white;
+    background: linear-gradient(132deg, rgba(68, 161, 72, 0.7) 0%, rgba(113, 239, 172, 0.9) 70%);
+    padding: 10px;
+}
+
+.our-clients-img {
+
+    width: 100px;
+    height: 100px;
+    margin-right: 50px;
+}
+
+.our-clients-img:last-child {
+    margin-right: 0;
+}

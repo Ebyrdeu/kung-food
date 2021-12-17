@@ -1,0 +1,23 @@
+/*reset css*/
+@import "./reset.css";
+
+/*animation css*/
+@import "./animation.css";
+
+/*colors css*/
+@import "./colors.css";
+
+
+
+/* header css*/
+@import "./components/header.css";
+
+/*Main css*/
+@import "./components/main.css";
+
+/*Footer css*/
+@import "./components/footer.css";
+
+/*Media css*/
+@import "./media.css";
+

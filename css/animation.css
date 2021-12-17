@@ -1,0 +1,25 @@
+/*NOTE Animations*/
+@keyframes sidePanelAnimation {
+    from {
+        left: -25px;
+        opacity: 0;
+    }
+    to {
+        left: 15px;
+    }
+}
+
+@keyframes shakeLogo {
+    to {
+        transform: rotate(-360deg)
+    }
+}
+
+@keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

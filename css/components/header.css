@@ -1,0 +1,137 @@
+/*NOTE - Side panel > Social Links*/
+.sidePanel {
+    position: fixed;
+    top: 240px;
+    left: 20px;
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    animation-name: sidePanelAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.sidePanel-text {
+    width: 120px;
+    height: 120px;
+    font-size: 14px;
+
+}
+
+.sidePanel-text span {
+    display: flex;
+    transform: rotate(-90deg) translateX(-50px)
+}
+
+.sidePanel-hr {
+    margin: 10px auto;
+    width: 1px;
+    height: 170px;
+    background-color: #333;
+}
+
+.sidePanel-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+
+.sidePanel-icon:last-child {
+    margin-bottom: 0;
+}
+
+.sidePanel-icon img {
+    width: 100%;
+
+}
+
+/*NOTE - Header*/
+header {
+    height: 100vh;
+    background: linear-gradient(90deg, transparent 50%, rgba(242, 246, 189, 0.4) 50%);
+}
+
+/*NOTE - Navigation*/
+nav {
+    margin-bottom: 120px;
+}
+
+.navbar-brand-text {
+    margin-left: 10px;
+}
+
+.nav-link {
+    font-weight: 800;
+}
+
+.navbar-brand img:hover {
+    animation: shakeLogo 1.5s forwards;
+}
+
+/* NOTE - Prewview Menu*/
+
+
+.preview-content {
+    /*background: red;*/
+    position: relative;
+    animation-name: fading;
+    animation-duration: 1.5s;
+}
+
+.preview-content-side_text {
+    transform: rotate(-90deg) translateY(-150px) translateX(-230px);
+    width: 500px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preview-content_img {
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.preview-content_descr {
+    position: absolute;
+    color: white;
+    background: rgba(189, 246, 203, 0.7);
+    background: linear-gradient(132deg, rgba(68,161,72,0.7) 0%, rgba(113,239,172,0.9) 70%);
+    padding: 40px;
+    width: 400px;
+    font-size: 24px;
+    bottom: -60px;
+    right: 200px;
+}
+
+.preview-sidebar_items {
+    padding-left: 148px;
+
+}
+.preview-sidebar_item {
+    margin-right: 10px;
+    cursor: pointer;
+    background: transparent;
+}
+.contact {
+    background-color: #333333;
+
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-social, .contact-number {
+    padding: 20px;
+}
+.contact-number-title,.contact-social-title {
+    color: white;
+}
+.contact-social-link, .contact-number-link{
+    text-decoration: none;
+    color: white;
+    margin: 1px;
+}
